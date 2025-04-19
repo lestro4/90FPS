@@ -1,8 +1,11 @@
 body {
-    background: #3399ff;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
     min-height: 100vh;
     margin: 0;
     font-family: sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Başlık - "90" */
@@ -73,7 +76,7 @@ body {
     gap: 2rem;
     margin: 4rem auto;
     padding: 2rem;
-    width: 90%;
+    width: 80%;
     max-width: 800px;
     background-color: transparent;
     border: 2px solid yellow;
@@ -138,4 +141,5 @@ body {
     .iletisim a {
         font-size: 4.5rem;
     }
-}
+    }
+        
